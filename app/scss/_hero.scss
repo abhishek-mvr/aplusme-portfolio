@@ -1,0 +1,37 @@
+.hero {
+
+    position: relative;
+
+    @include breakpoint-up(large)   {
+        display: flex;
+        height: 25rem;
+    }
+    
+    &-text {
+        position: absolute;
+        padding: 2rem;
+
+        @include breakpoint-up(large)   {
+            flex:1;
+            order:1;
+            max-width: 50rem;
+            color: aliceblue;
+        }
+    
+    }
+
+    &-image {
+        content: "";
+        background-image: url('/images/building-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 17.5rem;
+
+        @include breakpoint-up(large)   {
+            flex:1;
+            order:2
+        }
+    
+    }
+
+}

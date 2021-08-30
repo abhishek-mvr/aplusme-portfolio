@@ -1,0 +1,19 @@
+.header nav {
+  padding: 24px;
+}
+
+.header-menu span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: black;
+}
+
+.header-menu span:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.header-links a {
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=header.css.map */
