@@ -1,1 +1,1 @@
-# Welcome to a+me Architects
+# About
