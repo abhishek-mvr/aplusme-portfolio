@@ -8,14 +8,14 @@
     }
     
     &-text {
-        position: absolute;
+        position: relative;
         padding: 2rem;
 
         @include breakpoint-up(large)   {
             flex:1;
             order:1;
             max-width: 50rem;
-            color: aliceblue;
+            color: black;
         }
     
     }
